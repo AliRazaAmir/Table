@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        th[colspan="3"] {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        th[rowspan="2"] {
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2">Student ID</th>
+            <th rowspan="2">Name</th>
+            <th colspan="3">Subject Scores</th>
+            <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>John Doe</td>
+            <td>95</td>
+            <td>88</td>
+            <td>92</td>
+            <td>275</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane Smith</td>
+            <td>88</td>
+            <td>92</td>
+            <td>89</td>
+            <td>269</td>
+        </tr>
+    </table>
+</body>
+</html>
